@@ -28,6 +28,7 @@ int main(void){
 	printf("\n\nSEGUNDO MES:");
 	printf("\nJuros: +R$%.2f", juros);
 	printf("\nEntrada: +R$200.00");
+	printf("\nSaldo atual:R$%.2f", saldo);
 
 	// Terceiro mes
 	juros = saldo*1/100; // Juros de 1% ao mes
@@ -37,6 +38,8 @@ int main(void){
 	printf("\n\nTERCEIRO MES:");
 	printf("\nJuros: +R$%.2f", juros);
 	printf("\nSaida: -R$50.00");
+	printf("\nSaldo atual:R$%.2f", saldo);
+
 
 	// Quarto mes
 	juros = saldo*1/100; // Juros de 1% ao mes
