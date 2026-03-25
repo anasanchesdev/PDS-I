@@ -44,11 +44,11 @@ int main(void){
 	float peso_brutus = 122.0;
 	float peso_olivia = 45.0;
 
-	// Calcular quanto Brutus precisa ganhar/perder
+	// Calcula quanto Brutus precisa ganhar/perder
 	peso_brutus = calculaPeso(peso_brutus, altura_brutus);
 	printf("O peso de Brutus deve ser atualizado em %.1fkg\n", peso_brutus);
 
-	// Calcular quanto Olivia precisa ganhar/perder
+	// Calcula quanto Olivia precisa ganhar/perder
 	peso_olivia = calculaPeso(peso_olivia, altura_olivia);
 	printf("O peso de Olivia deve ser atualizado em %.1fkg\n", peso_olivia);
 
