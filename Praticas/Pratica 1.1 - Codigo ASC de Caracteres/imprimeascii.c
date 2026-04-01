@@ -8,7 +8,7 @@ Seu programa deve usar a função printf, e os códigos ASCII devem ser impresso
 
 int main(void){
 
-	printf("%c %c %c %c %c\n", 80, 68, 83, 45, 49);
+	printf("%d %d %d %d %d\n", 'P', 'D', 'S', '-', '1');
 
 	return 0;
 }

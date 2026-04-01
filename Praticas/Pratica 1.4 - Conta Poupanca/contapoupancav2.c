@@ -41,10 +41,9 @@ int main(void){
 		}
 		// Quarto mes
 		else {
-			saldo = calculaJuros(saldo, juros);
+			printf("\n%.2f", saldo);
 		}
 	}
-	printf("\nR$ %.2f\n", saldo);
 	return 0;
 }
 

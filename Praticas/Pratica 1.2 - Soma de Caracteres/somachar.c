@@ -11,7 +11,7 @@ int main(void){
 	int soma = 'P'+'D'+'S'+'-'+'1';
 	int multi = 'P'*'D'*'S'*'-'*'1';
 
-	printf("%d  %d\n", soma, multi);
+	printf("%d %d\n", soma, multi);
 
 	return 0;
 }
