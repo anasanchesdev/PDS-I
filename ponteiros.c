@@ -2,7 +2,10 @@
 PONTEIROS
 
 O que é um ponteiro?
-É uma "variável referência" que guarda o endereço de memória para outra variável
+- É uma "variável referência" que guarda o endereço de memória para outra variável
+- É um apontador para endereço de memória
+- É uma variável usada para conter endereços de memórias, e com isso conseguimos
+atualizar o conteúdo contido nesses endereços de maneira indireta.
 
 Vantagens de usar ponteiros
 1. Menos tempo de execução do programa
@@ -21,7 +24,7 @@ Notações:
 #include <stdio.h>
 
 void printAge(int *age){
-	printf("Valor de *age: %d", *age);
+	printf("Valor de *age: %d\n", *age);
 }
 
 int main(){
