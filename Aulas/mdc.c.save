@@ -1,0 +1,4 @@
+      printf("Digite um inteiro A (divisor)\n > ");
+        scanf("%d", &a);
+
+        printf("Digite um inteiro B (dividendo)\n > ");

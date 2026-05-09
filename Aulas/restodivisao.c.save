@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(){
+
+	int a, b, q;
+	
+	printf("Digite um inteiro A (dividendo):\n > ");
+	scanf("%d", &a);
+
+	printf("Digite um inteiro B (divisor):\n > ");
+	scanf("%d", &b);
+
+	while (b <= a){
+		a = a - b;
+		
+	
+	}
+	
+	return 0;
+}
